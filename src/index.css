@@ -1,0 +1,19 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+.body-gradient {
+  background: linear-gradient(135deg, #f3f7ff 0%, #eefbff 100%);
+}
+.card {
+  @apply rounded-2xl shadow-sm border border-slate-200 bg-white;
+}
+.btn-primary {
+  @apply px-4 py-2 rounded-xl text-white;
+  background: linear-gradient(135deg, #2245ff 0%, #5ac8fa 100%);
+}
+.link {
+  @apply text-blue-600 hover:underline;
+}
